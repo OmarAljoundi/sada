@@ -1,0 +1,100 @@
+{
+  "HeroTitle": "Echo Traveler",
+  "HeroDescription1": "An agency that is managed by wide experienced tourist agents in Sultanate of Oman for European, Turkey, Far east Asia, Azerbaijan, Georgia and more",
+  "HeroAction": "Lets talk!",
+  "Tours": "Featured Tours",
+  "ToursFeatures": "Well ordered travel tours and programs that fit the need for Adventurers, Families, and chill travelers. No Surprises about the costs, including costs and excluded costs, clear and well organized travel tour package. ",
+  "FormTitle": "Start your life travel today!",
+  "FromDescription": "Leave your contact details, and one of our professional sales will contact you soon",
+  "ContactInfo": "Contact Info",
+  "NamePlaceholder": "Your Name",
+  "PhonePlaceholder": "Your Phone Number",
+  "SubmitButton": "Send Info",
+  "BookStepsTitle": "Call, Book and Enjoy your Travel",
+  "BookStepsDescription": "We are as simple as that",
+
+  "BookStepsTitleOne": "Contact us directly or request a callback",
+  "BookStepsDescriptionOne": "our clients are our number one priority",
+
+  "BookStepsTitleTwo": "Book your desier travel",
+  "BookStepsDescriptionTwo": "from the east to the north, visit your dream land",
+
+  "BookStepsTitleThree": "Enjoy your travel",
+  "BookStepsDescriptionThree": "its time to relax and enjoy your days!",
+  "ShowDetails": "Show Details",
+
+  "EuropTitle": "Explore the Timeless Beauty of Europe",
+  "EuropDescription": "Discover Europe, where history comes alive and modernity thrives. From the romantic streets of Paris to the stunning fjords of Norway, Europe beckons with its diverse cultures, world-class art, and culinary delights. Embark on an unforgettable journey through iconic cities, charming villages, and breathtaking landscapes.",
+
+  "AzrTitle": "Azure Dreams Await in the Azores",
+  "AzrDescription": "Escape to the enchanting Azores, an archipelago of emerald-green islands in the middle of the Atlantic Ocean. Unspoiled natural beauty, lush forests, volcanic craters, and crystal-clear lakes await your exploration. Immerse yourself in the Azorean way of life, where relaxation and adventure seamlessly blend into an unforgettable getaway.",
+
+  "BosnaTitle": "Bosnia and Herzegovina: Where History Meets Hospitality",
+  "BosnaDescription": "Step into the heart of the Balkans and experience Bosnia and Herzegovina, where centuries-old history unfolds in a backdrop of stunning landscapes. From the historic streets of Sarajevo to the tranquil beauty of Mostar's iconic bridge, this hidden gem offers warm hospitality, rich traditions, and a chance to immerse yourself in the crossroads of cultures.",
+
+  "TurkeyTitle": "Turkey: Where East Meets West",
+  "TurkeyDescription": "Embark on a journey to Turkey, a land where ancient empires meet modern wonders. Explore the bustling bazaars of Istanbul, unwind on the pristine beaches of the Mediterranean, and wander through the surreal landscapes of Cappadocia. Turkey's rich tapestry of history, culture, and natural beauty will leave you mesmerized.",
+
+  "AsiaTitle": "Asia Unveiled: A Tapestry of Wonders",
+  "AsiaDescription": "Experience the magic of Asia, a continent where ancient traditions coexist with futuristic cities. From the serene temples of Kyoto to the vibrant streets of Bangkok, Asia offers a kaleidoscope of experiences. Dive into mouthwatering cuisines, explore UNESCO World Heritage Sites, and witness the vibrant cultures that make Asia a timeless and captivating destination.",
+
+  "CruisTitle": "Cruise the World: Your Voyage of a Lifetime",
+  "CruisDescription": "Set sail on a luxurious cruise and explore the world like never before. Discover pristine beaches, charming coastal towns, and exotic destinations, all while indulging in world-class cuisine and entertainment on board. Whether you're seeking relaxation or adventure, a cruise offers an unparalleled way to experience the world's most breathtaking destinations.",
+  "QA": [
+    {
+      "question": "What is the type and method of the programs?",
+      "answer": "What is the type and method of the programs?\nGroup trips with the largest travel company in Europe (Europa Mundo) operate on fixed, guaranteed dates, as most trips are available weekly throughout the year. The trips include passengers from all nationalities, with an English-speaking guide in modern, air-conditioned buses."
+    },
+    {
+      "question": "What is the quality of the hotels?",
+      "answer": "What is the quality of the hotels?\nMost hotels (98%) are in the four-star category. The hotel locations are not usually in the city center due to the difficulty of transportation to and from the city center, which could waste time. Therefore, evening transfers are provided as part of the program in certain cities."
+    },
+    {
+      "question": "What is the children's policy?",
+      "answer": "What is the children's policy?\nChildren are welcome on all our trips, and the discounts are as follows:\nLess than three years old: 80% discount\nFrom four to eight years old: 40% discount\nFrom nine to 15 years old: 10% discount"
+    },
+    {
+      "question": "What is the cancellation policy?",
+      "answer": "What is the cancellation policy?\n15% of the total amount (when canceled before the start of the trip by 13 days)\n35% of the total amount (when canceled 12 to 03 days before the trip)\n100% of the total amount (when canceled two days before the trip)"
+    },
+    {
+      "question": "Why doesn't the trip include airport transfers on the last day?",
+      "answer": "To give travelers the freedom to extend their nights in the last city, such as Disneyland in Paris or the countryside. Airport transfers can be easily arranged through the hotel by train or bus. Please note that airport transfers can be added through our company for an additional cost."
+    },
+    {
+      "question": "Why isn't the hotel name specified immediately upon booking confirmation?",
+      "answer": "Due to the nature of our fixed-date trips throughout the year and the inability to determine the final number of passengers until days before the trip begins, it is impossible to specify hotel names in advance. However, we guarantee that the hotel will be one of the options provided in the hotel list sent at the time of booking confirmation, or something better."
+    },
+    {
+      "question": "Is there privacy in our trips?",
+      "answer": "The trip system is group-based, and adherence to the transportation schedule is important. However, during the trips, travelers have the freedom to explore on their own, and we provide plenty of free time in the program with guidance from the tour guide for the best places and restaurants."
+    }
+  ],
+  "Faq": "Frequently Asked Questions",
+  "Menu": [
+    {
+      "label": "Home",
+      "href": "#"
+    },
+    {
+      "label": "Tours",
+      "href": "#"
+    },
+    {
+      "label": "How it works?",
+      "href": "#"
+    },
+    {
+      "label": "Contact Us",
+      "href": "#"
+    },
+    {
+      "label": "Faq",
+      "href": "#"
+    }
+  ],
+  "Rights": "2023. All rights reserved.",
+  "Office": "Office location",
+  "Contacts": "Contacts info",
+  "Footer": "The company was founded 11 years ago, precisely in the year 2012 AD. We specialize in global destinations, with a focus on all European Union countries, Turkey, as well as East Asian countries such as Indonesia, Malaysia, and Thailand."
+}
