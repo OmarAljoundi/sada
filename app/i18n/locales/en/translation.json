@@ -43,31 +43,15 @@
   "QA": [
     {
       "question": "What is the type and method of the programs?",
-      "answer": "What is the type and method of the programs?\nGroup trips with the largest travel company in Europe (Europa Mundo) operate on fixed, guaranteed dates, as most trips are available weekly throughout the year. The trips include passengers from all nationalities, with an English-speaking guide in modern, air-conditioned buses."
+      "answer": "Wide options that fit your experience and need, either group tours, driving, free trips or private tours."
     },
     {
       "question": "What is the quality of the hotels?",
-      "answer": "What is the quality of the hotels?\nMost hotels (98%) are in the four-star category. The hotel locations are not usually in the city center due to the difficulty of transportation to and from the city center, which could waste time. Therefore, evening transfers are provided as part of the program in certain cities."
-    },
-    {
-      "question": "What is the children's policy?",
-      "answer": "What is the children's policy?\nChildren are welcome on all our trips, and the discounts are as follows:\nLess than three years old: 80% discount\nFrom four to eight years old: 40% discount\nFrom nine to 15 years old: 10% discount"
-    },
-    {
-      "question": "What is the cancellation policy?",
-      "answer": "What is the cancellation policy?\n15% of the total amount (when canceled before the start of the trip by 13 days)\n35% of the total amount (when canceled 12 to 03 days before the trip)\n100% of the total amount (when canceled two days before the trip)"
-    },
-    {
-      "question": "Why doesn't the trip include airport transfers on the last day?",
-      "answer": "To give travelers the freedom to extend their nights in the last city, such as Disneyland in Paris or the countryside. Airport transfers can be easily arranged through the hotel by train or bus. Please note that airport transfers can be added through our company for an additional cost."
+      "answer": "Only hotels with more than 8 out of 10 Reviews in the global tourism market."
     },
     {
       "question": "Why isn't the hotel name specified immediately upon booking confirmation?",
-      "answer": "Due to the nature of our fixed-date trips throughout the year and the inability to determine the final number of passengers until days before the trip begins, it is impossible to specify hotel names in advance. However, we guarantee that the hotel will be one of the options provided in the hotel list sent at the time of booking confirmation, or something better."
-    },
-    {
-      "question": "Is there privacy in our trips?",
-      "answer": "The trip system is group-based, and adherence to the transportation schedule is important. However, during the trips, travelers have the freedom to explore on their own, and we provide plenty of free time in the program with guidance from the tour guide for the best places and restaurants."
+      "answer": "Because is depends on the availability of the hotels, but we guarantee that you will have same level or better than planned if the hotels has no capacity."
     }
   ],
   "Faq": "Frequently Asked Questions",
@@ -78,19 +62,19 @@
     },
     {
       "label": "Tours",
-      "href": "#"
+      "href": "features_tours"
     },
     {
       "label": "How it works?",
-      "href": "#"
+      "href": "how_it_works"
     },
     {
       "label": "Contact Us",
-      "href": "#"
+      "href": "call_to_action"
     },
     {
       "label": "Faq",
-      "href": "#"
+      "href": "faqs"
     }
   ],
   "Rights": "2023. All rights reserved.",

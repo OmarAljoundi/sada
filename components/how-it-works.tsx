@@ -3,7 +3,7 @@ import { useTranslation } from "@/app/i18n";
 export default async function HowItWorks({ params: lng }: { params: string }) {
   const { t } = await useTranslation(lng);
   return (
-    <section>
+    <section id={"how_it_works"}>
       <div className="py-20 bg-[#1c1c1c] radius-for-skewed">
         <div className="container mx-auto px-4">
           <div className="mb-16 mx-auto max-w-md text-center">

@@ -11,7 +11,7 @@ export default function Faqs({ params: lng }: { params: string }) {
   const { t } = useTranslation(lng);
 
   return (
-    <section>
+    <section id={"faqs"}>
       <div className="py-20 bg-[#1c1c1c] radius-for-skewed">
         <div className="container mx-auto px-4">
           <div className="mb-16 max-w-xl mx-auto text-center">

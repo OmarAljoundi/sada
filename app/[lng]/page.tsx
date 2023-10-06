@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { useTranslation } from "../i18n";
-import { Suspense } from "react";
 import HomeHero from "@/components/home-hero";
 import { cn } from "@/lib/utils";
 import FeatureTours from "@/components/feature-tours";
@@ -10,7 +7,7 @@ import Faqs from "@/components/faq";
 import Footer from "@/components/layout/footer";
 import Menu from "@/components/layout/menu";
 import { Separator } from "@/components/ui/separator";
-export default async function Page({ params: { lng } }: any) {
+export default function Page({ params: { lng } }: any) {
   return (
     <div className={cn(lng == "ar" ? "font-primary" : "font-english")}>
       <Menu lng={lng} />
@@ -22,6 +19,7 @@ export default async function Page({ params: { lng } }: any) {
       <Faqs params={lng} />
       <Separator />
       <Footer params={lng} />
+      <Separator />
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default async function CallToAction({
 }) {
   const { t } = await useTranslation(lng);
   return (
-    <section className="py-20 bg-[#1c1c1c]">
+    <section className="py-20 bg-[#1c1c1c]" id={"call_to_action"}>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2  items-center justify-center -mx-4">
           <div className="mb-16 lg:mb-0 max-w-2xl  px-4 lg:text-left rtl:lg:text-right text-center w-full">

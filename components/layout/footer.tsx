@@ -24,7 +24,7 @@ export default async function Footer({ params: lng }: { params: string }) {
               <div className="mb-6 w-full md:w-1/2 lg:w-1/4 lg:mr-6 px-3">
                 <h5 className="mb-4 font-bold text-gray-50">{t("Office")}</h5>
                 <p className="text-gray-400 leading-loose">
-                  359 Hidden Valley Road, NY
+                  Oman, Muscat - Al Seeb J4RJ+57V, AL Mabella
                 </p>
               </div>
               <div className="mb-6 w-full md:w-1/2 lg:w-1/4 px-3">

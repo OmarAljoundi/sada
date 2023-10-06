@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Logo from "../../public/sada-logo.png";
 import { useTranslation } from "@/app/i18n/client";
-import Link from "next/link";
 import {
   Select,
   SelectContent,
@@ -12,6 +11,9 @@ import {
 } from "@/components/ui/select";
 import { useRouter } from "next/navigation";
 import { languages } from "@/app/i18n/settings";
+import Link from "next/link";
+import ScrollIntoView from "react-scroll-into-view";
+
 const Menu: React.FC<{ lng: string }> = ({ lng }) => {
   const { t } = useTranslation(lng);
   const route = useRouter();
@@ -33,18 +35,18 @@ const Menu: React.FC<{ lng: string }> = ({ lng }) => {
           </svg>
         </button>
       </div>
-      <ul className="hidden   lg:mx-auto lg:flex lg:items-center lg:w-auto gap-8  w-1/2">
+      <ul className="hidden lg:mx-auto lg:flex lg:items-center lg:w-auto gap-8  w-1/2">
         {(
           t("Menu", { returnObjects: true }) as {
             label: string;
             href: string;
           }[]
         ).map((item) => (
-          <li key={item.label}>
-            <Link className="text-sm text-white hover:text-white " href="#">
+          <ScrollIntoView selector={`#${item.href}`} key={item.label}>
+            <span className="text-sm text-white hover:text-white cursor-pointer ">
               {item.label}
-            </Link>
-          </li>
+            </span>
+          </ScrollIntoView>
         ))}
       </ul>
       <div>

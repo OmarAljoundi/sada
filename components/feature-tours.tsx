@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 export default function FeatureTours({ params: lng }: { params: string }) {
   const { t } = useTranslation(lng);
   return (
-    <section>
+    <section id={"features_tours"}>
       <div className="py-20 bg-[#1c1c1c] radius-for-skewed">
         <div className="container px-4 mx-auto">
           <div className="mb-16 flex flex-wrap justify-center md:justify-between items-center">

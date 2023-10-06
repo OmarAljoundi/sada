@@ -10,6 +10,9 @@ export const config = {
 };
 
 export function middleware(req: NextRequest) {
+  if (req.nextUrl.pathname.includes("sitemap.xml")) {
+    return NextResponse.next();
+  }
   let lng;
   if (req.cookies.has(cookieName))
     lng = acceptLanguage.get(req.cookies.get(cookieName)?.value);

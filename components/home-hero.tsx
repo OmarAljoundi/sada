@@ -9,7 +9,7 @@ export default function HomeHero({ params: lng }: { params: string }) {
 
   return (
     <AnimatePresence>
-      <section className="relative bg-[#1c1c1c] overflow-hidden">
+      <section className="relative bg-[#1c1c1c] overflow-hidden" id={"home"}>
         <div className="relative pt-12 lg:pt-20 pb-20 z-10">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap -mx-4">
