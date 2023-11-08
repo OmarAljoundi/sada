@@ -1,4 +1,3 @@
-import "../globals.css";
 import type { Metadata } from "next";
 import { Almarai, Inclusive_Sans, Inter } from "next/font/google";
 import { dir } from "i18next";
