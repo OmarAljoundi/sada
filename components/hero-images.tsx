@@ -1,9 +1,6 @@
 "use client";
 import Image from "next/image";
-import Paris from "../public/paris.jpg";
-import Roma from "../public/rooma.jpg";
-import Sea from "../public/sea.jpg";
-import Adv from "../public/adv.jpg";
+
 import { motion } from "framer-motion";
 import { heroImagesItems, heroImagesContainer } from "./framer-motion";
 
@@ -22,9 +19,11 @@ const HeroImages = () => {
         >
           <Image
             className="w-full  h-64 p-2 object-cover rounded-3xl  shadow-primary bg-white "
-            src={Paris}
+            src={"home/paris.jpg"}
             alt=""
             quality={100}
+            width={640}
+            height={300}
           />
         </motion.div>
         <motion.div
@@ -33,8 +32,10 @@ const HeroImages = () => {
         >
           <Image
             className="w-full  h-64 p-2 object-cover rounded-3xl  shadow-primary bg-white "
-            src={Roma}
+            src={"home/rooma.jpg"}
             alt=""
+            width={640}
+            height={300}
             quality={100}
           />
         </motion.div>
@@ -46,7 +47,9 @@ const HeroImages = () => {
           <Image
             className="w-full h-64 p-2 object-cover rounded-3xl  shadow-primary bg-white "
             alt=""
-            src={Adv}
+            width={640}
+            height={300}
+            src={"home/adv.jpg"}
             quality={100}
           />
         </motion.div>
@@ -56,7 +59,9 @@ const HeroImages = () => {
         >
           <Image
             className="w-full   h-64 p-2 object-cover rounded-3xl  shadow-primary bg-white "
-            src={Sea}
+            src={"home/sea.jpg"}
+            width={640}
+            height={300}
             alt=""
             quality={100}
           />

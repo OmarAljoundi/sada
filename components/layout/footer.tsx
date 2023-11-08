@@ -14,7 +14,12 @@ export default async function Footer({ params: lng }: { params: string }) {
                 className="text-white text-3xl font-bold leading-none"
                 href="#"
               >
-                <Image src={Logo} alt="" />
+                <Image
+                  src={"home/sada-logo.png"}
+                  alt=""
+                  width={250}
+                  height={250}
+                />
               </a>
             </div>
             <div className="mb-5 w-full lg:w-1/5">

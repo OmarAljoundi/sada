@@ -1,43 +1,36 @@
-import europ from "../public/eurpe.jpg";
-import azr from "../public/azr.jpg";
-import cruis from "../public/cruis.jpg";
-import bosna from "../public/bosna.jpg";
-import asia from "../public/asia.jpg";
-import turkey from "../public/turkey.jpg";
-
 export const imagesArray = [
   {
-    src: europ,
+    src: "eurpe.jpg",
     title: "EuropTitle",
     description: "EuropDescription",
     dely: 0.2,
   },
   {
-    src: azr,
+    src: "azr.jpg",
     title: "AzrTitle",
     description: "AzrDescription",
     dely: 0.3,
   },
   {
-    src: cruis,
+    src: "cruis.jpg",
     title: "CruisTitle",
     description: "CruisDescription",
     dely: 0.4,
   },
   {
-    src: asia,
+    src: "asia.jpg",
     title: "AsiaTitle",
     description: "AsiaDescription",
     dely: 0.5,
   },
   {
-    src: turkey,
+    src: "turkey.jpg",
     title: "TurkeyTitle",
     description: "TurkeyDescription",
     dely: 0.6,
   },
   {
-    src: bosna,
+    src: "bosna.jpg",
     title: "BosnaTitle",
     description: "BosnaDescription",
     duration: 0.7,

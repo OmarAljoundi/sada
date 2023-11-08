@@ -21,7 +21,7 @@ const Menu: React.FC<{ lng: string }> = ({ lng }) => {
   return (
     <nav className="relative px-6 py-2 flex justify-between items-center z-10 bg-[#1c1c1c]">
       <a className="text-white text-3xl font-bold leading-none w-24" href="#">
-        <Image src={Logo} alt="" />
+        <Image src={"home/sada-logo.png"} alt="" width={250} height={250} />
       </a>
       <div className="lg:hidden">
         <button className="navbar-burger flex items-center text-white p-3">

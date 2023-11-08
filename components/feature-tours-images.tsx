@@ -38,7 +38,9 @@ const FeatureToursImages: FC<{ lng: string }> = ({ lng }) => {
             <div className="relative h-80 mb-5 mx-auto rounded-lg group">
               <Image
                 className=" w-full relative h-full rounded-lg object-cover"
-                src={item.src}
+                width={600}
+                height={400}
+                src={`home/${item.src}`}
                 alt=""
               />
               <div
