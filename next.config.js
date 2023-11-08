@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     loader: "custom",
     loaderFile: "./lib/supabase-image-loader.js",
+    deviceSizes: [640, 750, 828, 1080],
   },
 };
 
