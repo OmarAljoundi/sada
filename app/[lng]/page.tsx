@@ -9,8 +9,17 @@ import Menu from "@/components/layout/menu";
 import { Separator } from "@/components/ui/separator";
 export default function Page({ params: { lng } }: any) {
   return (
-    <div className={cn(lng == "ar" ? "font-primary" : "font-english")}>
-      <Menu lng={lng} />
+    <div
+      className={cn(
+        lng == "ar" ? "font-primary" : "font-english",
+        "mx-auto h-full"
+      )}
+    >
+      <h1 className="text-white text-5xl lg:text-7xl px-0 text-center pt-20 ">
+        Soon in Morocco
+      </h1>
+
+      {/* <Menu lng={lng} />
       <Separator />
       <HomeHero params={lng} />
       <FeatureTours params={lng} />
@@ -19,7 +28,7 @@ export default function Page({ params: { lng } }: any) {
       <Faqs params={lng} />
       <Separator />
       <Footer params={lng} />
-      <Separator />
+      <Separator /> */}
     </div>
   );
 }
